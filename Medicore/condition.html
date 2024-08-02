@@ -1,0 +1,52 @@
+<html>
+<head>
+	<title>medicore.com</title>
+	<link rel="stylesheet" type="text/css" href="condition_style.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+
+<body>
+
+<header><a href="home.html">Medicore</a> </header>
+<br><br><br>
+<hr style="border-color: BLACK;">
+
+
+<ul>
+	<li> <a href="home.html"><div class="icon"><i class="fa fa-home" aria-hidden="true"></i>
+																  <i class="fa fa-home" aria-hidden="true"></i> 
+							</div>
+					 		<div class="name"><span data-text="Home">Home</span></div>
+		</a>
+	</li>
+	
+	<li> <a href="drugs.php"><div class="icon"><i class="fa fa-medkit" aria-hidden="true"></i>
+												<i class="fa fa-medkit" aria-hidden="true"></i> </div>
+					 <div class="name"><span  data-text="Drugs">Drugs</span></div>
+		</a>
+	</li>
+	<li> <a href="condition.html"><div class="icon" style="color:RED;"><i class="fa fa-bed" aria-hidden="true"></i> 
+													<i class="fa fa-bed" aria-hidden="true"></i> </div>
+					 <div class="name"><span  data-text="Conditions">Conditions</span></div>
+		</a>
+	</li>
+	<li> <a href="about.html"><div class="icon"><i class="fa fa-info" aria-hidden="true"></i>
+												<i class="fa fa-info" aria-hidden="true"></i> </div>
+					 <div class="name"><span  data-text="About">About</span></div>
+		</a>
+	</li>
+</ul>
+<form method="POST" action="condition_search.php">
+<div class="wrap">
+   <div class="search">
+      <input type="text" class="searchTerm" placeholder="Enter your condition e.g., fever" name="condition">
+      <button type="submit" class="searchButton">
+        <i class="fa fa-search"></i>
+     </button>
+   </div>
+</div>
+</form>
+</body>
+
+</html>

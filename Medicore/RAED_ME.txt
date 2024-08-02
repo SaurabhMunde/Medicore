@@ -1,0 +1,18 @@
+To use the website read the document and follow the steps:-
+
+1. You should have Xampp server install on your pc. if don't click the link to download it ( https://www.apachefriends.org/index.html ).
+
+2. Extract Medicore.rar file in htdocs folder. ( C:\xampp\htdocs )
+
+3. Now open Xampp control panel from xampp folder. Start Apache and mySQL host. Then click on the Admin button of mySQL host.
+
+4. This will redirect you to the phpMyAdmin webpage, go to the Import tab of the webpage.
+
+5. Click on the choose file button of the Import tab then open Final_data2.sql databse from files ( C:\xampp\htdocs\Medicore\files ). 
+   then hit on go button situated at end of the Import tab. 
+
+6. Now open a new tab of your browser and type localhost/Medicore/home.html in url and press Enter.
+
+
+Now you can use the website. 
+Please feel free to provide feedback from about tab.  
